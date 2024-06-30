@@ -1,0 +1,153 @@
+/* Extra small devices (portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) {
+	/*header start*/
+	.menu ul li a {
+    font-size: 18px !important;
+    padding: 5px 0 0 !important;
+    text-align: right;
+}
+header {
+    padding: 5px 0;
+}
+.s-text h1{
+    font-size: 20px;
+ 
+}
+.s-text h2{
+	 font-size: 18px;
+	 margin: 10px 0 10px;
+
+}
+.s-text p{
+
+     margin-bottom: 20px;
+
+}
+.s-icon ul li{
+	padding-right: 0px;
+}
+
+.s-icon ul li i{
+	font-size: 30px;
+
+}
+.c-ind{
+	bottom: -30px;
+}
+.c-ind [data-bs-target] {
+    width: 8px;
+    height: 8px;
+
+}
+.c-ind [data-bs-target] {
+ margin-bottom: 20px !important;
+}
+.carousel-indicators {
+    bottom: -20 !important;
+    left: 53px;
+
+}
+/*header end*/
+/*header end*/
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu ul li a {
+    font-size: 20px !important;
+    padding: 8px 0 0 !important;
+    text-align: right;
+}
+
+/*slider start*/
+
+header {
+    padding: 10px 0;
+}
+.s-text h1{
+    font-size: 25px;
+ 
+}
+.s-text h2{
+	 font-size: 20px;
+	 margin: 15px 0 15px;
+
+}
+.s-text p{
+
+     margin-bottom: 30px;
+
+}
+.c-ind [data-bs-target] {
+    width: 10px;
+    height: 10px;
+
+}
+.s-icon ul li i {
+	font-size: 25px;
+
+    padding: 0 0;
+
+}
+.s-icon ul li {
+    padding-right: 5px;
+}
+
+.s-icon ul li i{
+	font-size: 30px;
+
+}
+.c-ind{
+	bottom: -19px;
+}
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+	.menu ul li a {
+    font-size: 22px !important;
+    padding: 10px 0 0 !important;
+    text-align: right;
+}
+/*header end*/
+/*slider start*/
+.c-ind{
+	bottom: -19px;
+}
+.s-icon ul li{
+	padding-right: 10px;
+}
+.s-icon ul li i{
+	font-size: 30px;
+
+}
+.c-ind [data-bs-target] {
+    width: 12px;
+    height: 12px;
+
+}
+	
+}
+
+/* Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+		.menu ul li a {
+    padding: 0 30px !important;
+}
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.menu ul li a {
+    padding: 0 38px !important;
+}
+	
+}
+
+/* Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1440px) { ... }
